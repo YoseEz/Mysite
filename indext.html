@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+.R {
+  font-size: 21px;
+}
+
+.light-text {
+  opacity: 0.6;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/picture/818969.jpg");
+  min-height: 75%;
+}
+
+.card {
+  border: 1px solid #f4eeee8b;
+  border-radius: 8px;
+  box-shadow: 0 50px 100px 0 rgba(48, 47, 47, 0.804);
+  padding: 30px;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #333;
+}
+
+button {
+  padding: 6px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px">
+        <a href="/indext.html" class="w3-bar-item w3-button">HOME</a>
+
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="indext.html" class="w3-bar-item w3-button">indext</a>
+          <a href="java.html" class="w3-bar-item w3-button">java</a>
+          <a href="api.html" class="w3-bar-item w3-button">api</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+      <div class="w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:120px">PORTFOLIO</span>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 1100px">
+      <!-- About Section -->
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="/picture/yo.jpg" class="w3-round w3-image " alt="Table Setting" width="600" height="750"/>
+        </div>
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">YOSE KAWAGUCHI</h1>
+          <br />
+          <h2 class="w3-center">EDUCATION</h2>
+          <p class="w3-large, R">
+            Rajabhat MahaSarakham <br>
+            Major:<span class="light-text">Technology</span> <br>
+            Faculty:<span class="light-text">Information Technology</span>
+            <h2 class="w3-center">SKILL</h2>
+            <ul class="R">
+              <li>GPT</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SCRIPT</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Menu Section -->
+      <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center">TRAININGS</h1>
+          <br />
+          <p>
+            12-13 june 2023 :
+            Programming Training Full stack
+            Developer with React.Js / Next.JS and MySQL
+          </p>
+          <p>
+            30-31 October 2022
+            Programming Training Back-end.
+            JAVA Spring boot Framework+
+            MySOL DB
+          </p>
+          <p>
+            27-28 March 2022
+            Programming Training Back-end
+            RestAPI Golang GIN,GORM MySql
+          </p>
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+          <img src="/picture/2.jpg" class="w3-round w3-image " alt="Menu" style="width: 100%"/>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+      <p>Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+      </p>
+    </footer>
+  </body>
+</html>
